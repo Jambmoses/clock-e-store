@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(56, 56, 56); /* custome black */
+    background-color: rgb(221, 221, 221);
+    overflow-x: hidden;
+}
+
+html{
+    scroll-padding-top:  6rem;
+    scroll-behavior: smooth;
+  }

@@ -1,0 +1,130 @@
+.deals-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 6%;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: 15px 0px;
+}
+
+.deals-head-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.deals-head-heading{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding-right: 15px;
+    border-right: 1px solid silver;
+}
+
+.deals-head-time{
+    font-family: monospace;
+    padding-left: 15px;
+    color: rgba(255, 68, 0, 0.692);
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.deals-head-time span{
+    font-weight: 500;
+}
+
+.deals-head-view-all{
+    font-weight: 600;
+    font-size: 13px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.deals-head-view-all-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.deals-product-section{
+    background-color: transparent;
+    padding-top: 18px;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.deals-product{
+    background-color: white;
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.deals-product-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.deals-product-image{
+    background-color: transparent;
+    height: 75%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.deals-product-image-real{
+    background-color: transparent;
+    height: 90%;
+    width: 90%;
+    margin-left: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.deals-product-info{
+    background-color: transparent;
+    height: 25%;
+}
+
+.deals-product-title{
+    display: block;
+    text-align: left;
+    height: 50%;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.deals-product-price{
+    display: block;
+    text-align: left;
+    height: 50%;
+    padding-left: 20px;
+    margin-top: -6px;
+}
+
+.deals-product-real-price{
+    padding-right: 10px;
+    border-right: 1px solid silver;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.deals-product-discount-price{
+    text-decoration: line-through;
+    color: gray;
+    padding-left: 10px;
+    font-size: 13px;
+}

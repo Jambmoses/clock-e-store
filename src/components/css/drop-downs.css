@@ -1,0 +1,125 @@
+
+/* profile drop down */
+
+.user-dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    margin-left: -25px;
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.281);
+    z-index: 10;
+    visibility: visible;
+}
+
+.user-dropdown-hide{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    margin-left: -25px;
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.281);
+    z-index: 10;
+    visibility: hidden;
+}
+
+.user-dropdown-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.user-dropdown-link span{
+    display: block;
+    display: block;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    color: grey;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.user-dropdown-link .logout{
+    margin-top: 15px;
+    border-top: 1px solid silver;
+}
+
+
+
+
+.categories-item-drop-down{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 150px;
+    background-color: white;
+    margin-left: 213px;
+    margin-top: -10px;
+    padding: 10px 10px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.281);
+    z-index: 10;
+    visibility: hidden;
+}
+
+.categories-item-drop-down-show{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 150px;
+    background-color: white;
+    margin-left: 213px;
+    margin-top: -10px;
+    padding: 10px 10px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.281);
+    z-index: 10;
+    visibility: visible;
+}
+
+.categories-item-drop-down-heading{
+    background-color: transparent;
+    padding-bottom: 10px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.categories-item-drop-down-list .categories-item-drop-down-list-link span{
+    display: block;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: grey;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.categories-item-drop-down-list-link span:hover{
+    background-color: rgba(221, 221, 221, 0.247);
+    transition: 0.1s linear;
+}
+
+
+.categories-item-drop-down-list-link{
+    text-decoration: none;
+    color: inherit;
+}

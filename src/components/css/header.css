@@ -1,0 +1,138 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 5%;
+    background-color: transparent;
+    border-bottom: 1px solid silver;
+    color: rgb(56, 56, 56);
+}
+
+
+nav .nav .nav-link{
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.3s linear;
+}
+
+nav .nav nav-link .active{
+    color: white;
+}
+
+nav .nav nav-link span:hover{
+    color: gray;
+    transition: 0.3s linear;
+}
+
+.user-name{
+    text-transform: capitalize;
+    margin-right: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: -25px;
+    margin-top: -5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.search span{
+    display: inline-block;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2px 0px;
+    width: 30vw;
+}
+
+.search span input{
+outline: none;
+border: 0px solid transparent;
+background-color: transparent;
+width: 88%;
+height: 20px;
+border-radius: 20px;
+padding-left: 20px;
+text-transform: capitalize;
+color: grey;
+font-family: sans-serif;
+font-size: 14px;
+letter-spacing: 1px;
+}
+
+.search span button{
+    outline: none;
+    border: 0px solid transparent;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 23px;
+    background-color: aqua;
+}
+
+
+.illustration-logo{
+    display: inline-block;
+    background-color: transparent;
+    width: 200px;
+    height: 30px;
+}
+
+.illustration-ico{
+    display: inline-block;
+    position: absolute;
+    background-color: transparent;
+    height: 30px;
+    width: 45px;
+    background-position: center;
+    background-size: cover;
+}
+
+.illustration-top-name{
+    background-color: transparent;
+    position: absolute;
+    margin-left: 50px;
+    width:150px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.illustration-bottom-name{
+    background-color: transparent;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 16px;
+    width:150px;
+    text-align: left;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: gray;
+}
+

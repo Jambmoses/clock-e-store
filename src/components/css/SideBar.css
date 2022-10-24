@@ -1,0 +1,39 @@
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 55px;
+    height: 100%;
+    background-color: white;
+}
+
+.side-nav div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 0px 0px;
+    padding-top: 10px;
+    height: 50px;
+    border-bottom: 1px solid silver;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.side-nav .side-nav-menu:hover{
+    background-color: white;
+}
+
+.side-nav div:hover{
+    background-color: rgb(221, 221, 221);
+    transition: 0.3s linear;
+}
+
+.side-nav .active-side-bar{
+    background-color: rgb(221, 221, 221);
+    border: 0px solid transparent;
+    transition: 0.3s linear;
+}
