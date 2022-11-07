@@ -1,27 +1,453 @@
 .gadgets-container{
     padding-left: 60px;
-    margin-top: 0px;
+    margin-top:10px;
     margin-right: 5px;
+    background-color: transparent;
 }
 
 .gadgets-categories{
-    background-color: aqua;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 50vh;
 }
 
+.gadgets-categories-main-banner{
+    width: 60%;
+    height: 100%;
+}
+
+.gadgets-categories-main-banner-ads{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.gadgets-categories-main-banner-ads-sub-title{
+    display: block;
+    color: black;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 10;
+    padding: 40px 0px 0px 40px;
+}
+
+.gadgets-categories-main-banner-ads-sub-title span{
+    color: rgb(233, 30, 30);
+}
+
+.gadgets-categories-main-banner-ads-title{
+    display: block;
+    width: 75%;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 2% 0px 0px 40px;
+    font-family: inherit;
+    font-weight: 500;
+    z-index: 10;
+}
+
+
+.gadgets-categories-main-banner-ads-price{
+    display: block;
+    color: black;
+    text-transform: initial;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    word-spacing: 1px;
+    z-index: 10;
+    padding: 2% 0px 0px 40px;
+    z-index: 10;
+}
+
+.gadgets-categories-main-banner-ads-price span{
+    color: rgb(233, 30, 30);
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    font-family: serif;
+}
+
+.gadgets-categories-main-banner-ads-btn{
+    text-decoration: none;
+    margin: 5% 0px 0px 40px;
+    background-color: lightgray;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 0px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s linear;
+    z-index: 10;
+}
+
+.gadgets-categories-main-banner-ads-btn:hover{
+    color: white;
+    transition: 0.3s linear;
+}
+
+.gadgets-categories-main-banner-ads-thumbnail{
+    display: block;
+    background-color: transparent;
+    width: 80%;
+    height: 96%;
+    margin-left: 20%;
+    margin-top: -32%;
+    z-index: 1;
+}
+
+
+
+
+
+
+.gadgets-categories-aside-banner-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 39.5%;
+    height: 100%;
+}
+
+.gadgets-categories-aside-banner-top{
+    height: 50%;
+}
+
+.gadgets-categories-aside-banner-bottom{
+    height: 48%;
+}
+
+.gadgets-categories-aside-banner-product-ads{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 73.5%;
+    border-radius: 2px;
+    padding: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.gadgets-categories-aside-banner-product-ads-sub-title{
+    display: block;
+    color: skyblue;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    z-index: 10;
+}
+
+.gadgets-categories-aside-banner-product-ads-title{
+    display: block;
+    width: 75%;
+    font-size: 139.5%;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-family: inherit;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.gadgets-categories-aside-banner-product-ads-sale-off{
+    display: block;
+    color: orangered;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    z-index: 10;
+}
+
+.gadgets-categories-aside-banner-product-ads-thumbnail{
+    background-color: transparent;
+    display: block;
+    width: 80%;
+    margin-top: -16%;
+    margin-left: 20%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.gadgets-categories-contain{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gadgets-categories-contain-box{
+    margin-top: 10px;
+    width: 300px;
+}
+
+.gadgets-categories-contain-listing{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.gadgets-categories-contain-listing-item{
+    background-color: transparent;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    letter-spacing: .3px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+}
+
+.gadgets-categories-contain-listing-item-title{
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.gadgets-categories-contain-listing-item-drop-titles{
+    text-transform: capitalize;
+    font: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    margin: 5px 0px;
+}
+
+.gadgets-categories-contain-listing-item-drop-titles .i{
+    color: orange;
+    margin-right: 5px;
+}
+
+.gadgets-categories-contain-listing-item-drop{
+    display: none;
+    margin-left: 25px;
+}
+
+.gadgets-categories-contain-listing-item-drop a{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    margin: 10px 0px;
+}
+
+
+
+.gadgets-categories-contain-listing-item-price-ranging{
+    outline: none;
+    width: 80%;
+    height: 5px;
+}
+
+.gadgets-categories-contain-listing-item-price-ranging-title{
+    text-align: center;
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: grey;
+    margin-top: 10px;
+}
+
+.gadgets-categories-contain-listing-item-tags{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gadgets-categories-contain-listing-item-tags a{
+    background-color: rgb(238, 238, 238);
+    color: grey;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: lowercase;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 3px 0px;
+}
+
 .gadgets-items-container{
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ margin-top: 10px;
+ margin-left: 5px;
+ margin-right: 5px;
+ border-radius: 5px;
+ width: 80%;
+}
+
+.gadgets-items-container nav{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+}
+
+.gadgets-items-container nav a{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: grey;
+}
+
+
+.gadgets-items-container-item-listing{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: antiquewhite;
     margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .gadgets-items{
-    background-color: lightcoral;
-    height: 200px;
+    background-color: transparent;
+    /* height: 210px; */
     width: 200px;
-    margin: 5px 1px;
+    margin: 5px 2px;
+}
+
+.gadgets-items-status{
+    background-color: rgb(0, 162, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    float: right;
+    margin: 5px 5px;
+    z-index: 10;
+}
+
+.gadgets-items-image{
+    background-color: lightcoral;
+    display: block;
+    height: 120px;
+    z-index: 1;
+}
+
+.gadgets-items-category{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 5px;
+    align-items: center;
+    font-family: sans-serif;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.116);
+}
+
+.gadgets-items-category-name{
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: grey;
+    font-weight: bold;
+}
+
+.gadgets-items-rating{
+    display: block;
+}
+
+.gadgets-items-rating i{
+    font-size: 12px;
+}
+
+.gadgets-items-title{
+    display: block;
+    background-color: transparent;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(0, 162, 255);
+    letter-spacing: .5px;
+    cursor:pointer;
+}
+
+
+.gadgets-items-price{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+    height: 14px;
+}
+
+.gadgets-items-price-originalprice{
+    text-transform: uppercase;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold; 
+}
+
+.gadgets-items-price-after-discount{
+    text-transform: uppercase;
+    color: rgb(233, 30, 30);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;    
+}
+
+.gadgets-items-price-discount{
+    color: lightgray;
+    padding-left: 7px;
+    text-decoration: line-through;
+}
+
+.gadgets-items-price-off{
+    text-transform: uppercase;
+    color: rgb(255, 134, 134);
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
 }
